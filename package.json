@@ -1,6 +1,6 @@
 {
   "name": "@jop-software/current-year",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Web Component to show the current year ",
   "private": false,
   "main": "./dist/index.mjs",
@@ -11,18 +11,34 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jop-software/current-year"
+  },
   "type": "module",
   "scripts": {
     "build": "unbuild",
     "prepublish": "pnpm build",
     "test:types": "tsc --noEmit --skipLibCheck"
   },
-  "keywords": [],
+  "keywords": [
+    "web components",
+    "current year",
+    "component",
+    "utility"
+  ],
   "author": {
     "name": "jop-software Inh. Johannes Przymusinski",
     "email": "info@jop-software.de",
     "url": "https://jop-software.de"
   },
+  "contributors": [
+    {
+      "name": "Johannes Przymusinski",
+      "email": "johannes@jop-software.de",
+      "url": "https://jop-software.de"
+    }
+  ],
   "license": "MIT",
   "packageManager": "pnpm@10.26.2",
   "devDependencies": {
