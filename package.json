@@ -2,6 +2,7 @@
   "name": "@jop-software/current-year",
   "version": "1.0.0",
   "description": "Web Component to show the current year ",
+  "private": false,
   "main": "./dist/index.mjs",
   "exports": {
     ".": "./dist/index.mjs"
@@ -13,6 +14,7 @@
   "type": "module",
   "scripts": {
     "build": "unbuild",
+    "prepublish": "pnpm build",
     "test:types": "tsc --noEmit --skipLibCheck"
   },
   "keywords": [],

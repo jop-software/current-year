@@ -34,6 +34,21 @@ After that or when using the CDN version, the `<current-year>` web component wil
 </footer>
 ```
 
+## Development
+
+To build the project locally, clone the repository and run:
+
+```bash
+pnpm install
+pnpm build
+```
+
+### Publish to npm
+
+```bash
+pnpm publish --access public
+```
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
