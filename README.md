@@ -15,7 +15,7 @@ npm install @jop-software/current-year
 Or include it directly in your HTML via a CDN:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@jop-software/current-year/dist/current-year.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@jop-software/current-year/dist/index.mjs"></script>
 ```
 
 ## Usage
